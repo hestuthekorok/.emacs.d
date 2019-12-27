@@ -664,7 +664,7 @@
 ** Pyim
    [[https://github.com/tumashu/pyim][Pyim]], an Emacs Chinese Pinyin Input. It uses [[https://github.com/tumashu/posframe][posframe]] package to display candidates.
 
-   我已经停止使用作者推荐的无痛中英切换，对需要同时打英文和中文的情况支持的很不友好。如需切换输入法，请善用 =C-\= 。
+   我已经停止使用作者推荐的无痛中英切换，它对需要同时打英文和中文的情况不是很友好。如需切换输入法，请善用 =C-\= 。
    #+INCLUDE: "~/.emacs.d/elisp/init-pyim.el" src emacs-lisp :range-begin "PyimPac" :range-end "-PyimPac" :lines "41-59"
 *** Pyim BaseDict
     [[https://github.com/tumashu/pyim-basedict][Pyim BaseDict]], the default Chinese-Pyim dictionary.
